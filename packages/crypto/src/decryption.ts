@@ -27,7 +27,7 @@ import {
   StateAddress,
   to_string,
   from_hex
-} from "libsodium-wrappers";
+} from "@notesnook/sodium";
 import KeyUtils from "./keyutils";
 import {
   Cipher,
