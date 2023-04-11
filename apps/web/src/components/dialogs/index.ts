@@ -57,6 +57,7 @@ const EmailChangeDialog = React.lazy(() => import("./email-change-dialog"));
 const LanguageSelectorDialog = React.lazy(
   () => import("./language-selector-dialog")
 );
+const AddTagsDialog = React.lazy(() => import("./add-tags-dialog"));
 
 export const Dialogs = {
   AddNotebookDialog,
@@ -85,5 +86,6 @@ export const Dialogs = {
   AddReminderDialog,
   ReminderPreviewDialog,
   EmailChangeDialog,
-  LanguageSelectorDialog
+  LanguageSelectorDialog,
+  AddTagsDialog
 };
